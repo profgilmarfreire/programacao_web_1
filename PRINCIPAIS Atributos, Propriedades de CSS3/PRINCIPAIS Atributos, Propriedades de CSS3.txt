@@ -1,0 +1,212 @@
+PRINCIPAIS Atributos, Propriedades e Valores em CSS3
+
+🅰️ TEXTO
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Cor do texto            | color                     | red, #333, rgb(0,0,0)
+Fonte                  | font-family               | Arial, Verdana, sans-serif
+Tamanho da fonte        | font-size                 | 16px, 1.2em, small
+Espessura da fonte      | font-weight               | normal, bold, 700
+Estilo da fonte         | font-style                | normal, italic, oblique
+Transformação do texto  | text-transform            | uppercase, lowercase, capitalize
+Alinhamento do texto    | text-align                | left, center, right, justify
+Decoração do texto      | text-decoration           | none, underline, line-through
+Espaçamento entre letras| letter-spacing            | 1px, normal
+Espaçamento entre linhas| line-height               | 1.5, 120%
+Sombra do texto         | text-shadow               | 1px 1px 2px #000
+Direção do texto        | direction                 | ltr, rtl
+Quebra de palavra       | word-break                | break-word, keep-all
+Hifenização             | hyphens                   | auto, none
+
+📦 DISPLAY E CAIXA
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Exibição                | display                   | block, inline, flex, grid, none
+Visibilidade            | visibility                | visible, hidden, collapse
+Modelo de caixa         | box-sizing                | content-box, border-box
+Largura                 | width                     | 100%, auto, 300px
+Altura                  | height                    | auto, 100vh, 200px
+Largura mínima          | min-width                 | 200px, 50%
+Altura mínima           | min-height                | 100px, 50vh
+Largura máxima          | max-width                 | 800px, 100%
+Altura máxima           | max-height                | 500px, 100%
+Espaço externo          | margin                    | 10px, auto, 0 10px
+Espaço interno          | padding                   | 15px, 1em, 5px 10px
+Transbordamento         | overflow                  | visible, hidden, scroll, auto
+Z-index                 | z-index                   | 1, 9999, auto
+
+🧭 POSICIONAMENTO
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Tipo de posição         | position                  | static, relative, absolute, fixed, sticky
+Posição superior        | top                       | 0, 10px, auto
+Posição esquerda        | left                      | 0, 20px, auto
+Posição direita         | right                     | 0, auto
+Posição inferior        | bottom                    | 0, auto
+Flutuação               | float                     | left, right, none
+Limpeza de flutuação    | clear                     | both, left, right, none
+
+🧱 BORDAS E FORMAS
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Borda                   | border                    | 1px solid black, none
+Estilo da borda         | border-style              | solid, dashed, dotted, double
+Cor da borda            | border-color              | black, #ccc, transparent
+Espessura da borda      | border-width              | 1px, 5px
+Arredondamento          | border-radius             | 5px, 50%
+Imagem de borda         | border-image              | url("borda.png") 30 round
+
+🎨 FUNDO
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Cor de fundo            | background-color          | #f0f0f0, transparent
+Imagem de fundo         | background-image          | url("imagem.jpg")
+Repetição de fundo      | background-repeat         | no-repeat, repeat
+Tamanho do fundo        | background-size           | cover, contain
+Posição do fundo        | background-position       | center, top left
+Fixação do fundo        | background-attachment     | fixed, scroll
+Gradiente               | background-image          | linear-gradient(to right, red, blue)
+
+🌀 EFEITOS E TRANSFORMAÇÕES
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Transição               | transition                | all 0.3s ease, background 1s
+Animação                | animation                 | fadeIn 2s infinite
+Transformação           | transform                 | rotate(45deg), scale(1.2), translateX(50px)
+Opacidade               | opacity                   | 1, 0.5, 0
+Filtro visual           | filter                    | blur(5px), brightness(0.8)
+Sombra da caixa         | box-shadow                | 2px 2px 5px rgba(0,0,0,0.3)
+
+📐 FLEXBOX
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Exibição flexível       | display                   | flex
+Direção dos itens       | flex-direction            | row, column
+Quebra de linha         | flex-wrap                 | wrap, nowrap
+Alinhamento horizontal  | justify-content           | center, space-between
+Alinhamento vertical    | align-items               | center, stretch
+Ordem dos itens         | order                     | 1, 2, -1
+Tamanho flexível        | flex                      | 1, 2 1 auto
+
+
+🧩 GRID
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Exibição em grade       | display                   | grid
+Colunas do grid         | grid-template-columns     | repeat(3, 1fr), 1fr 2fr
+Linhas do grid          | grid-template-rows        | auto, 100px 200px
+Espaçamento do grid     | gap                       | 10px, 1em
+Área do grid            | grid-area                 | header, main, footer
+Coluna inicial          | grid-column-start         | 1, 2
+Coluna final            | grid-column-end           | 3, span 2
+Linha inicial           | grid-row-start            | 1
+Linha final             | grid-row-end              | span 2
+
+📱 RESPONSIVIDADE
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Consulta de mídia       | @media                    | (max-width: 768px)
+Estilo condicional      | font-size                 | 14px
+Layout condicional      | flex-direction            | column
+
+🔗 LINKS E ÂNCORAS
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Cor do link padrão      | a:link                    | blue, #00f
+Cor do link visitado    | a:visited                 | purple, #551a8b
+Cor do link ao passar   | a:hover                   | red, #f00
+Cor do link ativo       | a:active                  | green, #0f0
+Decoração do link       | text-decoration           | none, underline
+Estilo ao passar mouse  | cursor                    | pointer, default
+Transição de link       | transition                | color 0.3s ease
+
+📋 LISTAS
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Tipo de marcador        | list-style-type           | disc, circle, square, decimal, none
+Imagem como marcador    | list-style-image          | url("icone.png")
+Posição do marcador     | list-style-position       | inside, outside
+Estilo resumido         | list-style                | square inside, none outside
+Espaçamento da lista    | margin                    | 0, 10px
+Espaçamento interno     | padding                   | 0, 10px
+
+🧩 PSEUDO-CLASSE
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Estado ao passar mouse  | :hover                    | altera estilo ao passar o cursor
+Elemento ativo          | :active                   | aplica estilo ao clicar
+Elemento em foco        | :focus                    | aplica estilo ao receber foco
+Primeiro filho          | :first-child              | seleciona o primeiro filho
+Último filho            | :last-child               | seleciona o último filho
+Elemento específico     | :nth-child(n)             | seleciona o filho na posição n
+Ímpares ou pares        | :nth-child(odd/even)      | seleciona filhos ímpares ou pares
+Exceção de seletor      | :not(selector)            | seleciona tudo exceto o seletor
+Elemento desabilitado   | :disabled                 | aplica estilo a elementos desativados
+Elemento obrigatório    | :required                 | aplica estilo a campos obrigatórios
+Elemento marcado        | :checked                  | aplica estilo a checkbox/radio selecionado
+Elemento vazio          | :empty                    | aplica estilo a elementos sem conteúdo
+
+📱 RESPONSIVIDADE BÁSICA
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Largura relativa        | width                     | 50%, 80%
+Altura relativa         | height                    | 100vh, 50vh
+Largura da viewport     | width                     | 100vw
+Altura da viewport      | height                    | 100vh
+Consulta de mídia       | @media                    | (max-width: 768px)
+Tamanho adaptável       | font-size                 | clamp(14px, 2vw, 18px)
+Cálculo de valor        | width                     | calc(100% - 20px)
+
+🎞️ ANIMAÇÕES COM @KEYFRAMES
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Definição de animação   | @keyframes                | nome personalizado da animação
+Aplicação da animação   | animation-name            | fadeIn, slideUp
+Duração da animação     | animation-duration        | 2s, 500ms
+Repetição               | animation-iteration-count | infinite, 1
+Tipo de movimento       | animation-timing-function | ease, linear, ease-in-out
+Direção da animação     | animation-direction       | normal, reverse, alternate
+Estado inicial/final    | animation-fill-mode       | forwards, backwards
+
+🧮 FUNÇÕES clamp() E calc()
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Tamanho adaptável       | font-size                 | clamp(14px, 2vw, 18px)
+Largura calculada       | width                     | calc(100% - 20px)
+Altura calculada        | height                    | calc(50vh + 100px)
+Espaçamento dinâmico    | margin                    | calc(2em + 10px)
+
+🧵 PRÉ-PROCESSADORES (SASS / SCSS)
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Variável                | $primary-color            | #3498db
+Aninhamento             | nav ul li a               | estilo dentro de hierarquia
+Mixins reutilizáveis    | @mixin                    | bloco de código reutilizável
+Inclusão de mixin       | @include                  | aplica o mixin
+Condicional             | @if / @else               | lógica no CSS
+Importação de arquivos  | @import                   | importa outros arquivos .scss
+
+🎚️ VARIÁVEIS CSS NATIVAS
+
+Atributo                | Propriedade               | Valor Exemplo
+------------------------|---------------------------|-------------------------------
+Declaração de variável  | --main-color              | #ff6600
+Uso da variável         | color                     | var(--main-color)
+Escopo de variável      | :root                     | define variáveis globais
+
