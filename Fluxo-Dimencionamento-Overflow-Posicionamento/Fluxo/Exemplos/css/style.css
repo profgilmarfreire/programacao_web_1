@@ -1,0 +1,18 @@
+h1{
+    border: 2px solid;
+}
+
+h2{
+    border: 2px solid;
+}
+
+p{
+    border: 2px solid;
+}
+
+span{
+    display: inline-block;
+    border: 2px solid red;
+    height: 100px;
+    width: 350px;
+}
