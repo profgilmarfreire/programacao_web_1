@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block{
+    border: 2px solid;
+}
+header{
+    width: 50%;
+    height: 48px;
+}
+a{  
+    border: 2px solid red;
+    display: inline-block;
+    height: 50px;
+    width: 45px;
+}
